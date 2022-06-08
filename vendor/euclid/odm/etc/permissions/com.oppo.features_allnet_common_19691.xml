@@ -1,0 +1,28 @@
+
+<permissions>
+    <feature name="oppo.feature.19691" />
+    <!-- Qicai.Zhu@PSW.Multimedia.Display.LCD.Params, 2018/12/19, Modify for screen underlightsensor -->
+    <feature name="oppo.display.screen.underlightsensor.support" />
+    <!-- Xiaori.Yuan@PSW.Multimedia.Display.Service.Feature, 2018/05/22, Add for roundcorner -->
+    <feature name="oppo.roundcorner.support" />
+    <!-- Xiaori.Yuan@Display.Service.Feature, 2018/05/24, Add this for protect eyes -->
+    <feature name="oppo.eyeprotect.support" />
+    <!-- Xiaori.Yuan@Display.Service.Feature, 2018/05/29, Add this for AOD -->
+    <!-- feature name="oppo.aod.support" /-->
+    <!-- liping-m@Display.Service.Feature, 2018/12/05, Add this for fingerprint -->
+    <feature name="oppo.fingerprint.disable.dimlayer" />
+    <!-- liping-m@Display.Service.Feature, 2019/03/26, Add this for DC backlight -->
+    <feature name="oppo.display.dcbacklight.support" />
+    <!-- YaoJun.Luo@ROM.SDK, 2018/05/12, add support display compat-->
+    <feature name="oppo.display.compat.support" />
+    <!-- Wenfeng.Li@PSW.AD.OppoFeature.CommonSoft.0, 2018/07/02, Add for oppo market control by nvflag -->
+    <feature name="oppo.oppomarket.flaginstall"/>
+    <!-- Xijun.Wang@ROM.SDK, 2019/01/01, add for start and back animation support-->
+    <feature name="oppo.animation.round.support"/>
+    <!-- Yizhang.Peng@PSW.AD.OppoFeature.FusionLight.1535903, 2019/02/20, Add for light function -->
+    <feature name="oppo.sensor.fusionlight.support" />
+    <!-- Wenkan.Zhu@PSW.CN.WiFi.Network.internet.1800709, 2019/01/24, Add for private feature -->
+    <feature name="oppo.wlan.privateDns.support" />
+    <!-- nitin.misra@APP.DocVault, 08/11/2019, Adding the feature check for DocVault entry in Gallery  -->
+    <feature name="oppo.docvault.support" />
+</permissions>

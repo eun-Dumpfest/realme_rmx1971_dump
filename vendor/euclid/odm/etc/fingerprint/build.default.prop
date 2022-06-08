@@ -1,0 +1,71 @@
+
+# InitEnv
+
+# Build.java
+ro.build.id=RKQ1.201217.002
+ro.product.manufacturer=realme
+ro.product.brand=realme
+ro.product.model=RMX1971
+ro.product.name=RMX1971
+ro.product.device=RMX1971
+ro.product.first_api_level=28
+ro.build.version.incremental=1651205774457
+ro.build.version.base_os=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1637545731209:user/release-keys
+ro.build.version.release=11
+ro.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1651205774457:user/release-keys
+ro.odm.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1651205774457:user/release-keys
+ro.odm.build.version.incremental=1651205774457
+ro.product.odm.brand=realme
+ro.product.odm.manufacturer=realme
+ro.product.odm.model=RMX1971
+ro.product.odm.device=RMX1971
+ro.product.odm.name=RMX1971
+ro.odm.build.date=Thu May  5 15:55:58 CST 2022
+ro.odm.build.date.utc=1651737358
+ro.system.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1651205774457:user/release-keys
+ro.system.build.version.incremental=1651205774457
+ro.product.system.brand=realme
+ro.product.system.manufacturer=realme
+ro.product.system.model=RMX1971
+ro.product.system.device=RMX1971
+ro.product.system.name=RMX1971
+ro.system.build.date=Thu May  5 15:55:58 CST 2022
+ro.system.build.date.utc=1651737358
+ro.bootimage.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1651205774457:user/release-keys
+ro.bootimage.build.version.incremental=1651205774457
+ro.product.bootimage.brand=realme
+ro.product.bootimage.manufacturer=realme
+ro.product.bootimage.model=RMX1971
+ro.product.bootimage.device=RMX1971
+ro.product.bootimage.name=RMX1971
+ro.bootimage.build.date=Thu May  5 15:55:58 CST 2022
+ro.bootimage.build.date.utc=1651737358
+ro.vendor.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1651205774457:user/release-keys
+ro.vendor.build.version.incremental=1651205774457
+ro.product.vendor.brand=realme
+ro.product.vendor.manufacturer=realme
+ro.product.vendor.model=RMX1971
+ro.product.vendor.device=RMX1971
+ro.product.vendor.name=RMX1971
+ro.vendor.build.date=Thu May  5 15:55:58 CST 2022
+ro.vendor.build.date.utc=1651737358
+ro.system_ext.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1651205774457:user/release-keys
+ro.system_ext.build.version.incremental=1651205774457
+ro.product.system_ext.brand=realme
+ro.product.system_ext.manufacturer=realme
+ro.product.system_ext.model=RMX1971
+ro.product.system_ext.device=RMX1971
+ro.product.system_ext.name=RMX1971
+ro.system_ext.build.date=Thu May  5 15:55:58 CST 2022
+ro.system_ext.build.date.utc=1651737358
+ro.product.build.fingerprint=realme/RMX1971/RMX1971:11/RKQ1.201217.002/1651205774457:user/release-keys
+ro.product.build.version.incremental=1651205774457
+ro.product.product.brand=realme
+ro.product.product.manufacturer=realme
+ro.product.product.model=RMX1971
+ro.product.product.device=RMX1971
+ro.product.product.name=RMX1971
+ro.product.build.date=Thu May  5 15:55:58 CST 2022
+ro.product.build.date.utc=1651737358
+
+# OPPO

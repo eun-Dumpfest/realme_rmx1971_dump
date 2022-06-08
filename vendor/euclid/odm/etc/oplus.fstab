@@ -1,0 +1,29 @@
+#<src>                                                 <mnt_point>            <type>  <mnt_flags and options>                            <fs_mgr_flags>
+#ifdef OPLUS_FEATURE_STORAGE_MOUNT
+#Xinghui.Wang@ANDROID.BUILD., 2020/08/27,Add for qcom no super mount
+loop@/system/euclid/my_product.img              /mnt/product/my_product           ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_product                         /my_product                       none     ro,bind                                              nofail,first_stage_mount
+loop@/system/euclid/my_heytap.img               /mnt/product/my_heytap            ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_heytap                          /my_heytap                        none     ro,bind                                              nofail,first_stage_mount
+loop@/system/euclid/my_company.img              /mnt/product/my_company           ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_company                         /my_company                       none     ro,bind                                              nofail,first_stage_mount
+loop@/system/euclid/my_preload.img              /mnt/product/my_preload           ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_preload                         /my_preload                       none     ro,bind                                              nofail,first_stage_mount
+loop@/system/euclid/my_stock.img                /mnt/product/my_stock             ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_stock                           /my_stock                         none     ro,bind                                              nofail,first_stage_mount
+loop@/system/euclid/my_region.img               /mnt/product/my_region            ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_region                          /my_region                        none     ro,bind                                              nofail,first_stage_mount
+loop@/system/euclid/my_carrier.img              /mnt/product/my_carrier           ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_carrier                         /my_carrier                       none     ro,bind                                              nofail,first_stage_mount
+loop@/system/euclid/my_engineering.img          /mnt/product/my_engineering       ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_engineering                     /my_engineering                   none     ro,bind                                              nofail,first_stage_mount
+loop@/vendor/euclid/odm.img                     /mnt/product/odm                  ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/odm                                /odm                              none     ro,bind                                              nofail,first_stage_mount
+loop@/vendor/euclid/my_manifest.img             /mnt/product/my_manifest          ext4     ro                                                   nofail,first_stage_mount
+/mnt/product/my_manifest                        /my_manifest                      none     ro,bind                                              nofail,first_stage_mount
+#endif
+
+#ifdef OPLUS_FEATURE_STORAGE
+#Runsheng.Pei@ANDROID.STORAGE.0, 2017/12/29, Add for new reserve partition
+/dev/block/by-name/opporeserve2                 /mnt/vendor/opporeserve           ext4     nosuid,nodev,noatime,barrier=1                       wait,check,first_stage_mount,nofail
+#endif
